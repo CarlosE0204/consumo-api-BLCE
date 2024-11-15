@@ -35,7 +35,12 @@ Finalmente este método se utiliza para que al momento que ocurra un error de qu
 
 ## Componente de la lista de usuario (archivo html)
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+El archivo está compuesto inicialmente por un encabezado del tittulo principal de la tabla y seguido del filtro que se implementó utilizando el form de material. Se realiza el llamado al método de applyFilter cada vez que se ingresan carcateres en el input y de esta manera se realiza el filtro.
+![image](https://github.com/user-attachments/assets/ec770813-c7a3-4584-be80-f116a9efc252)
+
+Por último se ejecuta el apartado de la paginación utilizando el mat-paginator de material.
+![image](https://github.com/user-attachments/assets/8ba3e798-f04e-425c-b84d-bcd38a8342ef)
+
 
 ## Ejecución
 
