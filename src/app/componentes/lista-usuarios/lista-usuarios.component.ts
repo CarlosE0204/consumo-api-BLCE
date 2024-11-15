@@ -19,7 +19,7 @@ import { MatInputModule } from '@angular/material/input';
   styleUrl: './lista-usuarios.component.css'
  })
 export class UserListComponent implements OnInit, AfterViewInit {
-  displayedColumns: string[] = ['id', 'nombre', 'email', 'rol'];
+  displayedColumns: string[] = ['id', 'nombre', 'email', 'rol','avatar'];
   dataSource = new MatTableDataSource<any>([]); // Inicializa con un arreglo vacío
 
   @ViewChild(MatPaginator) paginator!: MatPaginator;
@@ -46,6 +46,13 @@ export class UserListComponent implements OnInit, AfterViewInit {
     if (this.dataSource.paginator) {
       this.dataSource.paginator.firstPage();
     }
+  }
+
+  handleError(event: Event): void {
+    const imgElement = event.target as HTMLImageElement;
+    imgElement.src = 'avatar_img.png'; // Ruta de la imagen por defecto
+    event.preventDefault();
+    event.stopImmediatePropagation();
   }
 }
 // import { Component } from '@angular/core';

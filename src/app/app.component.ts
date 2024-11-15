@@ -15,7 +15,7 @@ import { UserListComponent } from "./componentes/lista-usuarios/lista-usuarios.c
   providers: [UserService],
 })
 export class AppComponent {
-  title = 'consumo-api-INICIALES';
+  title = 'consumo-api-BLCE';
 }
 /*
 import { BrowserModule } from '@angular/platform-browser';
