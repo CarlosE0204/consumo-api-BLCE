@@ -1,8 +1,9 @@
 # Tarea de Consumo de APIs BLCE
 Este trabajo fue desarrollado utilizando el framework de Angular el cual se encuentra en [Angular CLI](https://github.com/angular/angular-cli) en la version 18.2.11.
-Tambien se eimplementó material para poder darle diseño a la tabla en la que se muestran los datos 
+Tambien se implementó material para poder darle diseño a la tabla en la que se muestran los datos que se recuperan de la API a la cual  se está realizando la consulta. 
+Por otra parte la API que se consumió en este proyecto consite en un datos de usuarios de los cuales se recuperaron sus ids, nombres, correos y el rol que tenían cada uno de ellos, la API se puede encontrar en el siguiente link: https://api.escuelajs.co/api/v1/users
 
-## Development server
+## Conexión del servicio con la API
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
 
