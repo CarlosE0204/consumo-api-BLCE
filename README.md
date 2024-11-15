@@ -38,6 +38,15 @@ Finalmente este método se utiliza para que al momento que ocurra un error de qu
 El archivo está compuesto inicialmente por un encabezado del tittulo principal de la tabla y seguido del filtro que se implementó utilizando el form de material. Se realiza el llamado al método de applyFilter cada vez que se ingresan carcateres en el input y de esta manera se realiza el filtro.
 ![image](https://github.com/user-attachments/assets/ec770813-c7a3-4584-be80-f116a9efc252)
 
+El cuerpo principal del html consiste en el mat-table de material en el cual ya nos ofrece la opción de tener tablas dinámicas en las cuales se adapta de acuerdo a los datos que se van presentando, ademas que va acomodando los datos de acerdo a las colunas que se han declarado con anterioridad dentro del archivo ts, gracias al componente de material ya no es necesario iterar mediante *NgFor o @for debido a que esto ya lo realiza el mismo componete.
+![image](https://github.com/user-attachments/assets/a12f0b61-64e9-4d5c-96b4-2fa27e9ec33f)
+
+Otro punto a reconocer es que al moneto de declara que se está realizando la etiqueta table se especifica de donde se están obteniendo los datos con los que se rellenará la tabla.
+![image](https://github.com/user-attachments/assets/fd7dcb1e-5865-49ec-ba17-d85b19015216)
+
+Finalmente es importante recalcar que en el apartado de imagenes se colocan las imagenes que se hayan encontrado y ademas se realiza el manejo del error para cuando no haya acceso a las imagenes.
+![image](https://github.com/user-attachments/assets/f74f9eae-f599-44e8-84eb-01d937bf66f8)
+
 Por último se ejecuta el apartado de la paginación utilizando el mat-paginator de material.
 ![image](https://github.com/user-attachments/assets/8ba3e798-f04e-425c-b84d-bcd38a8342ef)
 
