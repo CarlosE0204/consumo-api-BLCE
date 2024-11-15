@@ -50,6 +50,23 @@ Finalmente es importante recalcar que en el apartado de imagenes se colocan las 
 Por último se ejecuta el apartado de la paginación utilizando el mat-paginator de material.
 ![image](https://github.com/user-attachments/assets/8ba3e798-f04e-425c-b84d-bcd38a8342ef)
 
+## Sección de preguntas
+### ¿Qué hace el método getUsers en este servicio?
+El método getUsers es el que nos va a devolver los datos del consumo de la API a la que estamos accediendo, para ello se declara la dirección URL de la API a la que ingresaremos, después se tiene el método getUsers en el cual se espera un observable y este sería un arreglo any y nos devuelve los datos en un arreglo de any.
+### ¿Por qué es necesario importar HttpClientModule?
+Es muy importante realizar la importación porque es el protcolo en el cual se va a comunicar nuestro programa con el servidor de la API a la que estamos accediendo, esto basándose en el protocolo HTTP, por ello sino se importan no se podría realizar la consulta a la API , pues también es importante para el get, update, delete.
+### ¿Qué función cumple el método ngOnInit en el componente UserListComponent? 
+Este método se realiza para que se ejecute una vez al cargar el programa es decir, al momento de cargar la página debe hacer todo lo que contiene el método para poder mostrar en pantalla, debido a eso , este método solo puede ser usado una vez cada vez que se carga la pantalla, en el caso de esta práctica el método está obteniendo los datos que se hicieron en la consulta se servicio y los devuelve como un tipo de datos.
+### ¿Para qué sirve el bucle *ngFor en Angular? Explica cómo se utiliza en este ejemplo.
+En mi caso no utilicé el bucle *ngFor debido a que implementé el componente Table de material, y este componente ya itera entre los valores del arreglo en donde se están obteniendo los datos, en este caso material requiere que también se declare un arreglo de los identificadores de cada columna y solo con ello va iterando y colocando los valores que nos retorna el consumo de la API.
+
+### Preguntas de reflexión final:
+#### 1.	¿Qué ventajas tiene el uso de servicios en Angular para el consumo de APIs?
+Mediante los servicio se puede realizar el consumo de APIs porque mediante estos es como se establece la conexión y obtenemos los observables de la API que se está consumiendo,  además con los observables da pie a poder implementar y manejar los datos de una manera adecuada dentro de la aplicación web.
+#### 2.	¿Por qué es importante separar la lógica de negocio de la lógica de presentación?
+Porque con la lógica del negocio se deben analizar todo lo que se debe realizar para que la aplicación funcione correctamente, en otro caso la lógica de presentación está más enfocada a la manera en la que se muestran los datos, por lo que no se puede tener ambas lógicas en un mismo sentido porque si bien funcionan en conjunto, cada una debe estar separada para poder operar de manera eficiente.
+#### 3.	¿Qué otros tipos de datos o APIs podrías integrar en un proyecto como este?
+Dependiendo el enfoque del proyecto son las apis que se pueden utilizar, en este caso se está realizando la consulta de los usuarios que se tienen en la API de usuarios, esto se podría utilizar como una base de datos, validar usuarios y mostrarle pantallas específicas, por otro lado se pueden implementar API como por ejemplo que sea una de ropa, ya que así se consultaría otra API que contenga datos de ropa y así mostrarles a los usuarios que sean clientes.
 
 ## Ejecución
 
