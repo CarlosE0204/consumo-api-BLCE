@@ -1,6 +1,6 @@
-# ConsumoApiINICIALES
-
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 18.2.11.
+# Tarea de Consumo de APIs BLCE
+Este trabajo fue desarrollado utilizando el framework de Angular el cual se encuentra en [Angular CLI](https://github.com/angular/angular-cli) en la version 18.2.11.
+Tambien se eimplementó material para poder darle diseño a la tabla en la que se muestran los datos 
 
 ## Development server
 
