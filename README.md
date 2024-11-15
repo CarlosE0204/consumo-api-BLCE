@@ -53,7 +53,7 @@ Por último se ejecuta el apartado de la paginación utilizando el mat-paginator
 
 ## Ejecución
 
-
+La ejecución muestra la tabla con los datos que se estan consumiendo de la API, hay algunos registros en los cuales no se puede acceder a la imagen es por ello que aparecen una imagen con una foto de usuario. 
 ![image](https://github.com/user-attachments/assets/9c4c0944-128f-4b06-ae48-dde6e6dca459)
 
 
