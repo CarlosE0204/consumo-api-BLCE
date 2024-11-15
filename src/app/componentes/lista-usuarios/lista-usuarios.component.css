@@ -1,0 +1,19 @@
+.titulo{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    font-weight: bold;
+    font-size: 30px;
+}
+mat-mdc-header-cell {
+    background-color: #4dbce1;
+    color: black;
+}
+  
+/* mat-header-cell.tema 
+{
+    background-color: #4dbce1;
+    color: black;
+}
+   */
