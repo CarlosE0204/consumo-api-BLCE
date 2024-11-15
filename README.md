@@ -53,5 +53,7 @@ Por último se ejecuta el apartado de la paginación utilizando el mat-paginator
 
 ## Ejecución
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+
+![image](https://github.com/user-attachments/assets/9c4c0944-128f-4b06-ae48-dde6e6dca459)
+
 
